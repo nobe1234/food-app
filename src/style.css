@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.container {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  background: rgba(50, 208, 189, 0.43);
+}
+
+.title {
+  position: relative;
+  width: 150px;
+  top: 88px;
+  margin: 0 auto;
+  /* height: 65px; */
+  /* left: 50%; */
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.boxes {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  margin: 0 auto;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+
+
+.content-title {
+  list-style: none;
+  position: relative;
+  width: 358px;
+  height: 57px;
+  top: 100px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  /* identical to box height */
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.content-box {
+text-align: center;
+position: relative;
+width: 358px;
+height: 584px;
+/* left: 85px; */
+top: 100px;
+
+background: #C4C4C4;
+border: 1px solid #000000;
+box-sizing: border-box;
+
+display: -webkit-flex;
+display: flex;
+/* -webkit-justify-content: space-around; */
+flex-direction: column;
+/* -webkit-flex-direction: column;
+-webkit-align-items: flex-start;
+justify-content: space-around;
+align-items: flex-start; */
+}
+
+.contents {
+  position: relative;
+  width: 280px;
+  height: 44px;
+  margin: 0 auto;
+/* left: 162px; */
+/* top: 343px; */
+}
